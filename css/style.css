@@ -2,12 +2,31 @@ body {
     background-color: bisque;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
 }
 
 h1 {
     color: firebrick;
 }
 
-p {
+h2 {
+    color: goldenrod;
+}
+
+.container h1 {    
+    text-align: center;
+}
+
+.container li {
+    padding: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container img {
+    width: 80%;
+    margin: auto;
+    display: block;
 }
